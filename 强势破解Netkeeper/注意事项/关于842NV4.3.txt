@@ -1,0 +1,2 @@
+帐号为admin
+密码需要设置为administrator

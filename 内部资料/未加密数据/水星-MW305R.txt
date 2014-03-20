@@ -1,0 +1,75 @@
+[提交方式]POST[/提交方式]
+
+[设置地址]http://192.168.1.1/cgi?2&2[/设置地址]
+
+[设置数据][WAN_PPP_CONN#1,1,1,0,0,0#0,0,0,0,0,0]0,18
+username=[帐号]
+password=[密码]
+X_TP_SpecialDail=0
+connectionTrigger=AlwaysOn
+PPPAuthenticationProtocol=AUTO_AUTH
+PPPoEACName=
+PPPoEServiceName=
+maxMRUSize=1480
+NATEnabled=1
+X_TP_FullconeNATEnabled=0
+X_TP_FirewallEnabled=0
+X_TP_IGMPProxyEnabled=0
+externalIPAddress=0.0.0.0
+X_TP_UseStaticIP=0
+PPPLCPEcho=0
+DNSOverrideAllowed=0
+DNSServers=0.0.0.0,0.0.0.0
+enable=1
+[WAN_ETH_INTF#1,0,0,0,0,0#0,0,0,0,0,0]1,1
+X_TP_lastUsedIntf=pppoe_eth3_d
+[/设置数据]
+
+[设置协议]Accept: */*
+Accept-Language: zh-cn
+Referer: http://192.168.1.1/
+Content-Type: text/plain
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
+Host: 192.168.1.1
+DNT: 1
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: Authorization=Basic YWRtaW4=[/设置协议]
+
+[连接地址]http://192.168.1.1/cgi?2&2[/连接地址]
+
+[连接数据][WAN_PPP_CONN#1,1,1,0,0,0#0,0,0,0,0,0]0,18
+username=[帐号]
+password=[密码]
+X_TP_SpecialDail=0
+connectionTrigger=AlwaysOn
+PPPAuthenticationProtocol=AUTO_AUTH
+PPPoEACName=
+PPPoEServiceName=
+maxMRUSize=1480
+NATEnabled=1
+X_TP_FullconeNATEnabled=0
+X_TP_FirewallEnabled=0
+X_TP_IGMPProxyEnabled=0
+externalIPAddress=0.0.0.0
+X_TP_UseStaticIP=0
+PPPLCPEcho=0
+DNSOverrideAllowed=0
+DNSServers=0.0.0.0,0.0.0.0
+enable=1
+[WAN_ETH_INTF#1,0,0,0,0,0#0,0,0,0,0,0]1,1
+X_TP_lastUsedIntf=pppoe_eth3_d
+[/连接数据]
+
+[连接协议]Accept: */*
+Accept-Language: zh-cn
+Referer: http://192.168.1.1/
+Content-Type: text/plain
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
+Host: 192.168.1.1
+DNT: 1
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: Authorization=Basic YWRtaW4=[/连接协议]
